@@ -8,8 +8,8 @@ public class Test {
     
     @GetMapping("/users")
     public String getData() {
-        String unusedVariable = "neverused"; // Unused local variable
-        String password = "admin1232"; // Hardcoded credentials
+        //String unusedVariable = "neverused"; // Unused local variable
+        //String password = "admin1232"; // Hardcoded credentials
         return "GET request successful";
     }
     
