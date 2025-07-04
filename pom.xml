@@ -28,6 +28,10 @@
     </scm>
     <properties>
         <java.version>24</java.version>
+        <sonar.projectKey>Ravindra-87_sonar-cube-testing_b8d95c30-fa55-4b4a-b891-91e80390f298</sonar.projectKey>
+        <sonar.projectName>sonar-cube-testing</sonar.projectName>
+        <sonar.host.url>http://localhost:8000</sonar.host.url>
+        <sonar.token>sqp_67f3a228baf57aeaf3d416ecbc1b7d5c8b6159ce</sonar.token>
     </properties>
     <dependencies>
         <dependency>
@@ -83,6 +87,11 @@
                         </exclude>
                     </excludes>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.sonarsource.scanner.maven</groupId>
+                <artifactId>sonar-maven-plugin</artifactId>
+                <version>3.10.0.2594</version>
             </plugin>
         </plugins>
     </build>
